@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title></title>
+        <link>http://localhost:1313/</link>
+        <description>This is my cool site</description>
+        <generator>Hugo -- gohugo.io</generator><language>es-es</language><copyright>2025</copyright><lastBuildDate>Thu, 31 Oct 2024 10:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Cómo Crear un Blog con Hugo y Dev Containers</title>
+    <link>http://localhost:1313/posts/blog_post_hugo/</link>
+    <pubDate>Thu, 31 Oct 2024 10:00:00 &#43;0000</pubDate>
+    <author>Andrés Piñeiro Lage</author>
+    <guid>http://localhost:1313/posts/blog_post_hugo/</guid>
+    <description><![CDATA[<h1 id="cómo-crear-un-blog-con-hugo-y-dev-containers-guía-paso-a-paso">Cómo Crear un Blog con Hugo y Dev Containers: Guía Paso a Paso</h1>
+<p>Esta guía te mostrará cómo configurar un entorno de desarrollo completo para un blog estático usando Hugo y Dev Containers. Esto te permitirá tener un entorno de desarrollo consistente y reproducible, ideal para trabajar en cualquier máquina.</p>
+<h2 id="prerrequisitos">Prerrequisitos</h2>
+<ul>
+<li><a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreffer ">Visual Studio Code</a></li>
+<li>La extensión <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers" target="_blank" rel="noopener noreffer ">Dev Containers</a> para VS Code.</li>
+<li><a href="https://www.docker.com/products/docker-desktop/" target="_blank" rel="noopener noreffer ">Docker Desktop</a> instalado y en ejecución.</li>
+</ul>
+<h2 id="paso-1-creación-de-la-estructura-del-proyecto">Paso 1: Creación de la Estructura del Proyecto</h2>
+<p>Primero, crea una carpeta para tu proyecto y navega hacia ella en tu terminal.</p>]]></description>
+</item>
+</channel>
+</rss>

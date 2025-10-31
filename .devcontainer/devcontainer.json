@@ -1,0 +1,15 @@
+{
+  "name": "Hugo-Dev-Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [1313],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bungcip.better-toml",
+        "DavidAnson.vscode-markdownlint"
+      ]
+    }
+  }
+}

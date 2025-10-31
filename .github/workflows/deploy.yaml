@@ -1,0 +1,27 @@
+# .github/workflows/deploy.yml
+name: Deploy Blog to GitHub Pages
+on:
+  push:
+    branches:
+      - main # O la rama que uses como principal
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # Asegura que los submódulos del tema se descarguen
+          fetch-depth: 0    # Necesario para Hugo
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Build
+        run: hugo --minify
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public # El directorio que Hugo genera
