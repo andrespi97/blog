@@ -1,0 +1,14 @@
+# Hugo
+/public/
+/resources/
+.hugo_build.lock
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencias de Node (si se usaran)
+/node_modules/

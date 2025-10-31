@@ -9,17 +9,17 @@ copyright = "2025"
   name = "Posts"
   url = "/posts/"
 
-[[menu.main]]
-  weight = 2
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+# [[menu.main]]
+#   weight = 2
+#   identifier = "tags"
+#   name = "Tags"
+#   url = "/tags/"
 
-[[menu.main]]
-  weight = 3
-  identifier = "categories"
-  name = "Categories"
-  url = "/categories/"
+# [[menu.main]]
+#   weight = 3
+#   identifier = "categories"
+#   name = "Categories"
+#   url = "/categories/"
 
 # Parámetros específicos del tema LoveIt
 [params]
@@ -40,7 +40,7 @@ copyright = "2025"
   # website title for Open Graph and Twitter Cards
   title = "Blog de Andres Piñeiro"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my cool site"
+  description = "Blog de Andres Piñeiro"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
@@ -98,3 +98,32 @@ copyright = "2025"
     icp = ""
     # license info (HTML format is supported)
     license= ""
+
+[params.page.share]
+      enable = false
+      X = false
+      Threads = false
+      Facebook = false
+      Linkedin = false
+      Whatsapp = false
+      Pinterest = false
+      Tumblr = false
+      HackerNews = false
+      Reddit = false
+      VK = false
+      Buffer = false
+      Xing = false
+      Line = false
+      Instapaper = false
+      Pocket = false
+      Flipboard = false
+      Weibo = false
+      Blogger = false
+      Baidu = false
+      Odnoklassniki = false
+      Evernote = false
+      Skype = false
+      Trello = false
+      Diaspora = false
+      Mix = false
+      Telegram = false
